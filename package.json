@@ -1,0 +1,22 @@
+{
+  "name": "entreprise-info",
+  "version": "1.0.0",
+  "description": "A simple API that finds basic information about a given company.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "API",
+    "REST",
+    "Node"
+  ],
+  "author": "Mahmoud Saad",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^3.0.0",
+    "nodemon": "^2.0.12"
+  }
+}
