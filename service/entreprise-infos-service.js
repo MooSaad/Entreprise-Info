@@ -1,7 +1,7 @@
 import fetch from 'node-fetch';
 
-const API_URL = 'https://entreprise.data.gouv.fr/api/sirene/v3/etablissements/';
-export const fetchBySiret = siret => {
-	let url = API_URL + siret;
+const API_URL = 'https://entreprise.data.gouv.fr/api/sirene/v3/unites_legales/';
+export const fetchBySiret = siren => {
+	let url = API_URL + siren;
 	return fetch(url).then(data => data.json());
 }
